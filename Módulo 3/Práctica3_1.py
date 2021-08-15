@@ -4,9 +4,9 @@
 # en caso contrario.
 # Nota, acordaros de realizar la conversión de tipos en el input
 
-entrada = input('Introduce un número:')
+entrada = int(input('Introduce un número:'))
 
-if int(entrada) > 3:
+if entrada > 3:
     mayorQueTres = True
 else:
     mayorQueTres = False
